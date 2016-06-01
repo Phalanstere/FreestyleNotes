@@ -57,9 +57,9 @@ background: darkorange;
 .FreestyleNotes .field
 {
 width: 100%;
-height: 100%;
+height: 90%;
 left: 0;
-top: 62px;
+margin-top: 32px;
 background: rgb(220,240,250);	
 color: black;
 }
@@ -67,11 +67,11 @@ color: black;
 
 .FreestyleNotes textarea
 {
-margin-top: 40px;
+margin-top: 10px;
 font-size: 16px;
 background: white;
 width: 98%;
-height: 80%;
+height: 40%;
 margin-left: 1%;
 outline: none;
 border: none;
@@ -80,7 +80,43 @@ color: black;
 }
 
 
+.FreestyleNotes label
+{
+font-size: 14px;
+margin-left: 10px;
+font-family: Inconsolata;	
+}
+
+.FreestyleNotes input
+{
+margin-top: 4px;
+font-size: 16px;
+background: white;
+width: 94%;
+height: 20px;
+outline: none;
+margin-left: 2%;
+border: none;	
+}
+
+
 .FreestyleNotes #submit
 {
-	
+position: absolute;
+bottom: 3%;
+left: 20px;
+width: 120px;
+height: 30px;
+background: black;
+color: white;	
+text-align: center;
+font-family: Inconsolata;
+font-size: 20px;
+cursor: pointer;
+}
+
+
+.FreestyleNotes #submit:hover
+{
+background: darkorange;	
 }
